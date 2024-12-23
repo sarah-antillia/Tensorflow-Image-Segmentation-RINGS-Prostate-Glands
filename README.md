@@ -76,9 +76,12 @@ Massimo Salvi, Martino Bosco, Luca Molinaro, Alessandro Gambella, Mauro Giulio P
 <br>
 <b>Description</b><br>
 
-This repository contains the image dataset and the manual annotations used to develop the RINGS algorithm for automated prostate glands segmentation:
-- Salvi M., Bosco M., L. Molinaro, Gambella A., Papotti M., Udyavara Rajendra Acharya, and Molinari F., "A hybrid deep learning approach for gland segmentation in prostate histopathological images", Artificial Intelligence in Medicine 2021 (DOI: 10.1016/j.artmed.2021.102076)
-
+This repository contains the image dataset and the manual annotations used to develop the RINGS algorithm for automated prostate glands segmentation:<br>
+ Salvi M., Bosco M., L. Molinaro, Gambella A., Papotti M., Udyavara Rajendra Acharya, and Molinari F., <br>
+"A hybrid deep learning approach for gland segmentation in prostate histopathological images", <br>
+Artificial Intelligence in Medicine 2021 (DOI: 10.1016/j.artmed.2021.102076)
+<br>
+<br>
 Background: In digital pathology, the morphology and architecture of prostate glands have been routinely adopted by pathologists to evaluate the presence of cancer tissue. The manual annotations are operator-dependent, error-prone and time-consuming. The automated segmentation of prostate glands can be very challenging too due to large appearance variation and serious degeneration of these histological structures.
 Method: A new image segmentation method, called RINGS (Rapid IdentificatioN of Glandural Structures), is presented to segment prostate glands in histopathological images. We designed a novel glands segmentation strategy using a multi-channel algorithm that exploits and fuses both traditional and deep learning techniques. Specifically, the proposed approach employs a hybrid segmentation strategy based on stroma detection to accurately detect and delineate the prostate glands contours.
 Results: Automated results are compared with manual annotations and seven state-of-the-art techniques designed for glands segmentation. Being based on stroma segmentation, no performance degradation is observed when segmenting healthy or pathological structures.  Our method is able to delineate the prostate gland of the unknown histopathological image with a dice score of 90.16% and outperforms all the compared state-of-the-art methods.
